@@ -24,5 +24,6 @@ RUN apt-get update -q && apt-get install -y -q \
 	libpixman-1-dev \ 
 	rsync \
         ncurses-dev \
-	kmod
+	kmod \
+	liblz4-tool
 
