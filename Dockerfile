@@ -23,5 +23,6 @@ RUN apt-get update -q && apt-get install -y -q \
 	device-tree-compiler \ 
 	libpixman-1-dev \ 
 	rsync \
-        ncurses-dev
+        ncurses-dev \
+	kmod
 
