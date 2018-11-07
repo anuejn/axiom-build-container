@@ -1,5 +1,6 @@
 FROM ubuntu:rolling
-RUN apt-get update -q && apt-get install -y -q \
+RUN echo "Europe/Dublin" > /etc/timezone
+RUN apt-get update -q && apt-get -o DPkg::Options::=--force-confdef install -y -q \
 	wget \ 
 	git \ 
 	e2fsprogs  \ 
